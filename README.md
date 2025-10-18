@@ -22,8 +22,8 @@ A modern, intuitive expense tracking platform built with React and TypeScript. F
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/Finlo.git
-cd Finlo
+git clone https://github.com/yourusername/finlo.git
+cd walletwise
 ```
 
 2. **Install dependencies**
