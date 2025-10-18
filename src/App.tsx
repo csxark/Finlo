@@ -34,7 +34,7 @@ function App() {
           }`}>
             <div className="animate-spin rounded-full h-6 w-6 sm:h-8 sm:w-8 border-b-2 border-white"></div>
           </div>
-          <h2 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2">Loading WalletWise</h2>
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2">Loading Finlo</h2>
           <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">Preparing your financial experience...</p>
         </div>
       </div>

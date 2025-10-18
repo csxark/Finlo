@@ -82,7 +82,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
         {
             name: "Arjun Mehta",
             role: "Computer Science Student",
-            content: "WalletWise is perfect for managing my hostel expenses and pocket money. Helped me track where my ₹8,000 monthly allowance goes!",
+            content: "Finlo is perfect for managing my hostel expenses and pocket money. Helped me track where my ₹8,000 monthly allowance goes!",
             rating: 4.5,
             avatar: "AM"
         },
@@ -184,7 +184,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
                                     ? 'bg-gradient-to-r from-yellow-400 via-yellow-300 to-amber-200'
                                     : 'bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800'
                                     }`}>
-                                    WalletWise
+                                    Finlo
                                 </h1>
                                 <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wide uppercase hidden sm:block animate-pulse">
                                     Smart Finance
@@ -420,7 +420,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
                             ? 'bg-gradient-to-r from-white via-gray-100 to-gray-200'
                             : 'bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900'
                             }`}>
-                            How WalletWise Works
+                            How Finlo Works
                         </h2>
                         <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                             Get started in minutes and transform your financial management with our simple 5-step process.
@@ -511,7 +511,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
                             </span>
                         </h2>
                         <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                            Join thousands of satisfied users who have transformed their financial lives with WalletWise.
+                            Join thousands of satisfied users who have transformed their financial lives with Finlo.
                         </p>
                     </div>
 
@@ -608,7 +608,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
                                 </span>
                             </h2>
                             <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-300 mb-8 lg:mb-12 max-w-3xl mx-auto animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
-                                Join thousands of users who have already taken control of their financial future. Start your journey today with WalletWise.
+                                Join thousands of users who have already taken control of their financial future. Start your journey today with Finlo.
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
                                 <button
@@ -657,7 +657,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
                                         ? 'bg-gradient-to-r from-yellow-400 via-yellow-300 to-amber-200'
                                         : 'bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800'
                                         }`}>
-                                        WalletWise
+                                        Finlo
                                     </h3>
                                 </div>
                             </div>
@@ -696,7 +696,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSignIn, onSignUp }) => {
 
                     <div className={`border-t mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center ${isDark ? 'border-slate-700' : 'border-gray-200'}`}>
                         <p className="text-gray-600 dark:text-gray-300 text-sm">
-                            © 2025 WalletWise. All rights reserved.
+                            © 2025 Finlo. All rights reserved.
                         </p>
                         <div className="flex items-center space-x-4 mt-4 sm:mt-0">
                             <span className="text-sm text-gray-500 dark:text-gray-400 animate-pulse">Made with ❤️ in India</span>

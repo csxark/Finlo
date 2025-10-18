@@ -125,7 +125,7 @@ const Auth = ({ onClose }) => {
             <h1 className={`text-2xl sm:text-3xl font-bold bg-clip-text text-transparent ${
               isDark? 'bg-gradient-to-r from-yellow-400 via-yellow-300 to-amber-200':'bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800'
             }`}>
-              WalletWise
+              Finlo
             </h1>
             <p className="text-gray-600 dark:text-gray-400 mt-1 sm:mt-2 font-medium text-sm sm:text-base">
               {isResetMode ? 'Reset your password'

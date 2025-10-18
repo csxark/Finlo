@@ -45,7 +45,7 @@ const Navigation: React.FC<NavigationProps> = ({
                   ? 'bg-gradient-to-r from-yellow-400 via-yellow-300 to-amber-200' 
                   : 'bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800'
               }`}>
-                WalletWise
+                Finlo
               </h1>
               <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wide uppercase hidden sm:block">
                 Finance Management
