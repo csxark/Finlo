@@ -1,4 +1,4 @@
-# WalletWise 💰
+# Finlo 💰
 
 A modern, intuitive expense tracking platform built with React and TypeScript. WalletWise helps you take control of your finances with beautiful visualizations, smart categorization, and seamless expense management.
 
@@ -22,7 +22,7 @@ A modern, intuitive expense tracking platform built with React and TypeScript. W
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/walletwise.git
+git clone https://github.com/yourusername/finlo.git
 cd walletwise
 ```
 
@@ -71,7 +71,7 @@ Seamless navigation between different sections with theme toggle functionality.
 
 ## 🎨 Theming
 
-WalletWise supports both light and dark themes with smooth transitions:
+Finlo supports both light and dark themes with smooth transitions:
 
 - **Light Mode**: Clean, minimal design with gray gradients
 - **Dark Mode**: Elegant dark theme with slate color palette
