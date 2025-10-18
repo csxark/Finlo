@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart3, List, User, Wallet, Moon, Sun, Settings, LogOut } from 'lucide-react';
+import { BarChart3, List, User, Wallet, Moon, Sun, LogOut } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { useAuth } from '../hooks/useAuth';
 import { useProfile } from '../hooks/useProfile';

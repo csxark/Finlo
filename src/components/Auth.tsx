@@ -3,15 +3,19 @@ import { Eye, EyeOff, Mail, Lock, User, Wallet, Sparkles, Shield, AlertCircle, T
 import { useAuth } from '../hooks/useAuth';
 import { useTheme } from '../hooks/useTheme';
 
-const passwordChecks = [
-  { label: 'At least 8 characters', check: pw => pw.length >= 8 },
-  { label: 'One uppercase letter', check: pw => /[A-Z]/.test(pw) },
-  { label: 'One lowercase letter', check: pw => /[a-z]/.test(pw) },
-  { label: 'One number', check: pw => /[0-9]/.test(pw) },
-  { label: 'One special character', check: pw => /[^A-Za-z0-9]/.test(pw) }
+type PwCheck = { label: string; check: (pw: string) => boolean };
+
+const passwordChecks: PwCheck[] = [
+  { label: 'At least 8 characters', check: (pw: string) => pw.length >= 8 },
+  { label: 'One uppercase letter', check: (pw: string) => /[A-Z]/.test(pw) },
+  { label: 'One lowercase letter', check: (pw: string) => /[a-z]/.test(pw) },
+  { label: 'One number', check: (pw: string) => /[0-9]/.test(pw) },
+  { label: 'One special character', check: (pw: string) => /[^A-Za-z0-9]/.test(pw) }
 ];
 
-const Auth = ({ onClose }) => {
+type AuthProps = { onClose?: () => void };
+
+const Auth: React.FC<AuthProps> = ({ onClose }) => {
   const [isSignUp, setIsSignUp] = useState(false);
   const [signUpStep, setSignUpStep] = useState(1); // NEW: two-page logic
   const [email, setEmail] = useState('');
@@ -40,7 +44,7 @@ const Auth = ({ onClose }) => {
 
   const passwordStrength = passwordChecks.reduce((acc, item) => acc + (item.check(password) ? 1 : 0), 0);
 
-  function handleModeSwitch(mode) {
+  function handleModeSwitch(mode: 'reset' | 'signup' | 'signin') {
     setError('');
     setSuccess('');
     setSignUpStep(1);
@@ -53,7 +57,7 @@ const Auth = ({ onClose }) => {
     }
   }
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError(''); setSuccess('');
 
